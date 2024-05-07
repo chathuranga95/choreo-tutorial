@@ -22,8 +22,8 @@ spec:
       schemaFilePath: openapi.yaml
   outbound:
     serviceReferences:
-    - name: choreo:///choreotutorial2024/appointment-management/qpdnrq/8b1c3/v1/PUBLIC
-      connectionConfig: 01ef0c32-2fb4-1066-b9c1-a2455191a54e
+    - name: choreo:///apifirst/wso2contesting/mljeos/8b1c3/v1/ORGANIZATION
+      connectionConfig: 01ef0c4d-4caa-1028-a27d-937bd75a4b4c
       env:
       - from: ServiceURL
         to: APPOINTMENT_SERVICE_URL
